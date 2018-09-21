@@ -367,8 +367,8 @@ section.cta .overlay {
   left: 0;
 }
 section.contact .container {
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-top: 0px;
 }
 section.contact h2 {
   margin-top: 0;
@@ -571,4 +571,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+.typed-cursor{
+  font-size: 50px;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }

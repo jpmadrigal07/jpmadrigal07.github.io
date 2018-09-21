@@ -19,7 +19,7 @@
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
@@ -82,8 +82,8 @@
                 <div class="col-sm-12">
                     <div class="header-content">
                         <div class="header-content-inner">
-                            <center><img src="img/user-image.png" class="img-rounded" alt="Poy Madrigal" width="200" height="200" style="border-radius: 100px;"><br><br><h1>Hello World!</h1>
-                            <h2>WordPress Developer | UI/UX Designer | Graphic Designer | MEAN/MERN Stack & Android Developer | Technopreneur | Blogger</h2><br><br>
+                            <center><img src="img/user-image.png" class="img-rounded" alt="Poy Madrigal" width="200" height="200" style="border-radius: 100px;"><br><br><h1 style="display: inline;" class="typed"></h1>
+                            <h2 style="font-weight: 300;">WordPress Developer | UI/UX Designer | Graphic Designer | MEAN/MERN Stack & Android Developer | Technopreneur | Blogger</h2><br><br>
                             <a href="#contact" class="btn btn-outline btn-xl page-scroll"><i class="fa fa-circle" aria-hidden="true"></i> Available for projects</a></center>
                         </div>
                     </div>
@@ -328,6 +328,16 @@
             <p>&copy; 2017 JP Madrigal</p>
         </div>
     </footer>
+
+    <!-- Type -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script>
+      var typed = new Typed(".typed", {
+        strings: ["Hello ^500 World!^1000", "I'm ^500John Patr^500ick Madrig^500al^3000", "Welcome to my Portfolio!"],
+        smartBackspace: true, // Default value
+        typeSpeed: 60
+      });
+    </script>
 
     <!-- Particle -->
     <script src="js/particles.js"></script>
